@@ -5,5 +5,5 @@ spec:
     repoURL: https://github.com/azaurus1/continuous-gitops-example-repo
     targetRevision: HEAD
 stacks:
-  - name: infra
-  - name: apps
+  - name: example-infra
+  - name: example-apps
