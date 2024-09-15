@@ -6,4 +6,6 @@ spec:
     targetRevision: HEAD
 stacks:
   - name: infra
+    namespace: example-gitops
   - name: apps
+    namespace: example-gitops
