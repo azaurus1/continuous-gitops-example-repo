@@ -1,0 +1,9 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/azaurus1/continuous-gitops-example-repo
+    targetRevision: HEAD
+stacks:
+  - name: infra
+  - name: apps
